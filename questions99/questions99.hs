@@ -1,5 +1,3 @@
-add a b = a + b
-
 --Problem 1
 myLast ::[a] -> a
 myLast [] = error "this is empty"
@@ -149,6 +147,9 @@ range :: Int->Int ->[Int]
 range n m = [n .. m]
 
 --Problem 23  to_do
+range' :: Int->Int ->[Int]
+range' n m = [n .. m]
+
 --Problem 24 to_do
 --Problem 25 to_do
 --Problem 26 to_do
